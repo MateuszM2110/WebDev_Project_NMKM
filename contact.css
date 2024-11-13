@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;  /* e5e5e5 */
+    font-family: "Inter";
+    font-size: 1.4rem;
+    background-image: url("../image/pexels-elisabethfossum-321339.jpg");
+    background-size: cover;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; 
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-container h1 {
+    font-size: 50px;
+    color: #fe930f;
+    margin: 0; 
+    text-align: left;
+}
+
+.header-container nav {
+    margin-right: 70px;
+    margin-left: auto;
+    text-align: right;
+
+}
+
+.header-container nav ul {
+    display: flex;
+    gap: 15px; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.header-container nav ul li {
+    display: inline-block;
+    margin-right: 0px;  
+    font-size: large;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.header-container nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    /* background-color: #555; */
+    padding: 5px 10px;
+   /* border: 1px solid #030303; */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: large;
+}
+
+.header-container nav ul li a:hover {
+    background-color: #bdbdbd;
+    color: #000000;
+    text-decoration: none;
+}
+/* General Footer Styling */
+.footer {
+    background-color: #e5e5e5; 
+    color: #333; 
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer footer {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Connect Section */
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fe930f; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #333; 
+}
+
+/* Contact Info */
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info .email-button,
+.contact-info .phone-button {
+    background: none;
+    border: none;
+    color: #fe930f;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.contact-info .email-button:hover,
+.contact-info .phone-button:hover {
+    color: #333;
+}
+
+/* Footer Bottom Text */
+.footer-text {
+    font-size: 14px;
+    color: #666; 
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .contact-inputs {
+        width: 90%;
+    }
+    
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+/* Tablets (600px - 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    
+    .contact-inputs {
+        width: 300px;
+    }
+    
+    .contact-container {
+        padding: 40px;
+    }
+}
+
+/* Desktop (> 1024px) */
+@media screen and (min-width: 1025px) {
+    .container {
+        width: 1000px;
+    }
+    
+    .contact-inputs {
+        width: 400px;
+    }
+}
+/*Contact */
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20;
+}
+.contact-inputs:focus{
+    border: 2px solid #e79519;
+}
+.contact-inputs:paceholder{
+    color: #a9a9a9
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+}
+.contact-left button img {
+    height: 15px;
+}
