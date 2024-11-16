@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;  /* e5e5e5 */
+    font-family: "Inter";
+    font-size: 1.4rem;
+    text-align: left;  /* Set default text alignment */
+}
+
+.header-container {
+    display: flex;
+    align-items: center; 
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.header-container h1 {
+    font-size: 50px;
+    color: #fe930f;
+    margin: 0; 
+    text-align: center;
+}
+
+.header-container nav {
+    margin-right: 70px;
+    margin-left: auto;
+    text-align: left;
+
+}
+
+.header-container nav ul {
+    display: flex;
+    gap: 15px; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+
+.header-container nav ul li {
+    display: inline-block;
+    margin-right: 0px;
+    font-size: large;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.header-container nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    /* background-color: #555; */
+    padding: 5px 10px;
+   /* border: 1px solid #030303; */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: large;
+}
+
+.header-container nav ul li a:hover {
+    background-color: #bdbdbd;
+    color: #000000;
+    text-decoration: none;
+}
+/* General Footer Styling */
+.footer {
+    background-color: #e5e5e5; /* f9f9f9 */
+    color: #333; 
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer footer {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Connect Section */
+.footer-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fe930f; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #333; 
+}
+
+/* Contact Info */
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-info .email-button,
+.contact-info .phone-button {
+    background: none;
+    border: none;
+    color: #fe930f;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.contact-info .email-button:hover,
+.contact-info .phone-button:hover {
+    color: #333;
+}
+
+/* Footer Bottom Text */
+.footer-text {
+    font-size: 14px;
+    color: #666; 
+    margin-top: 20px;
+}
+
+.blog-box-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 0;
+    overflow: visible;
+    border-radius: 0;
+    padding: 0;
+}
+
+.blog-box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Remove hover effect */
+.blog-box-img img:hover {
+    transform: none;
+}
+
+.blog-box {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.blog-box h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+
+.blog-box p {
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+/* Center specific headings */
+.discover-adventure,
+.our-story {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;  /* Add max-width for better readability on large screens */
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Left align bullet points */
+.why-choose-us {
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0;
+}
+
+.why-choose-us ul {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.why-choose-us li {
+    padding-left: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    display: list-item;
+}
+
+.why-choose-us h2,
+.why-choose-us h3,
+.why-choose-us p 
+    margin-left: 1rem;
+}
+.blog-box-img {
+    width: 100%;
+    height: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.blog-box-img img {
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+}
+
+.features-list p {
+    margin: 10px 0;
+}
+.blog-heading h2,
+.blog-box-text h3,
+.blog-box-text p {
+    color: white;
+    text-align: center;
+}  
