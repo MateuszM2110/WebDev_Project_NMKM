@@ -1,0 +1,37 @@
+To: Lucassnow1@gmail.com
+From: NMKM@mytudublin.ie
+Subject: Snow Trails Contact Form Implementation
+
+Dear Lucas Snow,
+
+Thank you for your continued feedback and for your recent request to add a contact form on to the website! We’re glad to hear that you’re pleased with our progress so far.
+
+We are excited to let you know that we’ve successfully implemented the contact form as requested. Below are the main features and validation details we’ve included:
+
+Main Features Added to the Form:
+
+Name Field (Text Input): Users can enter their full name in this field.
+Email Field (Email Input): This ensures that users provide a valid email address when submitting the form.
+Phone Number Field (Tel Input): A phone number field has been added to collect contact details.
+Message Field (Text Area): This allows users to submit a message or inquiry.
+
+Data Validation:
+
+Email Validation: We’ve implemented a validation rule to ensure that users enter a correctly formatted email address (e.g., user@example.com).
+Phone Number Validation: The phone number field requires a valid phone number format, with appropriate checks in place.
+Required Fields: The form ensures that all fields (Name, Email, Phone Number, and Message) are marked as required, and an error message is displayed if they’re left empty.
+Screen Reader-Friendly Error Messages: We’ve added clear, accessible error messages for invalid or missing fields, which are compatible with screen readers for improved accessibility.
+Additionally, here is the link to the newly updated website page with the contact form deployed:
+[Insert Link to New Page]
+
+Please take a look at the form and let us know if you have any further requests or need any adjustments made. We’re happy to make any changes to ensure the site meets your requirements!
+
+Kind regards,
+Nikita Kravchenko, Mateusz Michalik
+Computer Science (TU856/1)
+
+
+
+
+
+
